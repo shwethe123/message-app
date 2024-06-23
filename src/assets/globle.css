@@ -1,0 +1,47 @@
+body {
+    background: #001d3d;
+    color: #444;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 2px;
+    /* box-shadow: 2px 4px 6px rgba(28, 6, 49, 0.1); */
+    background: white;
+    padding: 20px;
+}
+
+.error {
+    color: #ff3f80;
+    font-size: 14px;
+}
+
+button {
+    text-decoration: none;
+    background: #003459;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.log_button {
+    background: #ff232e;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
